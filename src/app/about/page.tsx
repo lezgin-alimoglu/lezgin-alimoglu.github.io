@@ -6,13 +6,13 @@ const AboutPage = () => {
       <h1 className="text-4xl font-bold text-center mb-6 text-white">About Me</h1>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold text-white mb-4">Hi, I'm Lezgin Alimoglu</h2>
+        <h2 className="text-2xl font-semibold text-white mb-4">Hi, I&apos;m Lezgin Alimoglu</h2>
         <p className="text-lg text-white">
-        I am a student studying electrical and electronics engineering and a passionate 
-        software developer who loves to build new things. Learning new things from many 
-        areas and making new discoveries are indispensable for me. I created this site 
-        to share the new things I learn with the adventurers who explore the farthest 
-        reaches of the internet.
+          I am a student studying electrical and electronics engineering and a passionate 
+          software developer who loves to build new things. Learning new things from many 
+          areas and making new discoveries are indispensable for me. I created this site 
+          to share the new things I learn with the adventurers who explore the farthest 
+          reaches of the internet.
         </p>
         <p className="text-lg text-white mt-4">
           With a background in C++ development, I am currently focusing on building 
@@ -46,7 +46,7 @@ const AboutPage = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold text-white mb-4">Let's Connect</h2>
+        <h2 className="text-2xl font-semibold text-white mb-4">Let&apos;s Connect</h2>
         <p className="text-lg text-white">
           You can find me on{" "}
           <a
