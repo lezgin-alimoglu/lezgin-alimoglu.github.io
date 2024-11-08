@@ -25,7 +25,7 @@ const ContactPage = () => {
     const formDataToSend = new FormData(e.target as HTMLFormElement);
 
     // Make the request to Formspree endpoint
-    const response = await fetch("https://formspree.io/f/your-form-id", {
+    const response = await fetch("https://formspree.io/f/mdkogvrg", {
       method: "POST",
       body: formDataToSend,
     });

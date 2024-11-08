@@ -50,7 +50,7 @@ const AboutPage = () => {
         <p className="text-lg text-white">
           You can find me on{" "}
           <a
-            href="https://www.linkedin.com/in/your-linkedin"
+            href="https://www.linkedin.com/in/lezgin-alimo%C4%9Flu-2988b1224/"
             target="_blank"
             className="text-blue-500 hover:underline"
           >
@@ -58,7 +58,7 @@ const AboutPage = () => {
           </a>{" "}
           or check out my code on{" "}
           <a
-            href="https://github.com/your-github"
+            href="https://github.com/lezgin-alimoglu/"
             target="_blank"
             className="text-blue-500 hover:underline"
           >
