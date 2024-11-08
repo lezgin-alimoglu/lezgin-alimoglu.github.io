@@ -19,7 +19,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "My Webpage - Lezgin Alimoglu",
-  description: "Created by Lezgin Alimoglu",
+  description: "Personal website and portfolio of Lezgin Alimoglu",
 };
 
 export const viewport = "width=device-width, initial-scale=1.0";
