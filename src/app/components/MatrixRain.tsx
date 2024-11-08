@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect, useRef } from "react";
 
-
 // Matrix Rain Component
 const MatrixRain = () => {
   const [columns, setColumns] = useState<number>(30); // Number of columns for the rain
@@ -33,10 +32,11 @@ const MatrixRain = () => {
     if (!matrixRef.current) return;
 
     const rainColumns = matrixRef.current.querySelectorAll(".matrix-rain");
-    rainColumns.forEach((column: any, index: number) => {
+    rainColumns.forEach((column: Element) => {
       const spans = column.querySelectorAll("span");
-      spans.forEach((span: any, idx: number) => {
-        span.style.transform = `translateY(${(idx * 30)}px)`; // Adjust animation
+      spans.forEach((span: Element, idx: number) => {
+        // Cast span to HTMLSpanElement to access the style property
+        (span as HTMLSpanElement).style.transform = `translateY(${(idx * 30)}px)`; // Adjust animation
       });
     });
 

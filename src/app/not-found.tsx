@@ -13,7 +13,7 @@ const Matrix404 = () => {
         <div className="text-center">
           <h1 className="text-6xl mb-4">404</h1>
           <h2 className="text-2xl mb-8">The Matrix has encountered an error.</h2>
-          <p className="mb-4 text-lg">You are trying to access a page that doesn't exist.</p>
+          <p className="mb-4 text-lg">You are trying to access a page that doesn&apos;t exist.</p>
           <Link href="/" className="text-lg underline hover:text-green-300">
             Return to the real world
           </Link>
