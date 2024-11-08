@@ -63,3 +63,59 @@ footer {
   text-shadow: 0 0 5px rgba(0, 255, 0, 0.8);
 }
 
+form {
+  position: relative; /* Formu referans olarak alırız */
+}
+
+/* Butonun konumlandırılması */
+button[type="submit"] {
+  position: absolute;
+  bottom: -50px; /* Mesaj kutusunun hemen altına yerleştiriyoruz */
+  left: 0;
+  width: 100%; /* Buton tüm genişliği kaplasın */
+  padding: 15px;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buton hover efekti */
+button[type="submit"]:hover {
+  background-color: #2563eb;
+}
+
+textarea {
+  color: #000000; /* Siyah metin */
+  background-color: #f9f9f9; /* Hafif gri arka plan */
+}
+
+/* Textarea'nın odaklanıldığında, arka plan rengini ve yazı rengini değiştirme */
+textarea:focus {
+  color: #000000; /* Siyah metin */
+  background-color: #ffffff; /* Bembeyaz arka plan */
+  border-color: #1e3a8a; /* Mavi border */
+}
+input[type="text"], input[type="email"], textarea {
+  color: #000000; /* Siyah metin */
+  background-color: #f9f9f9; /* Hafif gri arka plan */
+  border: 1px solid #ddd; /* Hafif gri border */
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* Name, Mail ve Message inputları odaklandığında stil değişikliği */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  color: #000000; /* Siyah metin */
+  background-color: #ffffff; /* Bembeyaz arka plan */
+  border-color: #1e3a8a; /* Mavi border */
+  outline: none;
+}
