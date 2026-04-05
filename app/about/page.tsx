@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion, Variants} from "framer-motion";
-import { FileDown, ArrowLeft, BrainCircuit, Bot, Target, Mail } from "lucide-react";
+import { FileDown, ArrowLeft, BrainCircuit, Bot, Target, Mail, Github, Linkedin } from "lucide-react";
 
 
 
@@ -17,7 +17,7 @@ const pageVariants: Variants = {
     y: 0, 
     transition: {
       duration: 0.5,
-      ease: [0.22, 1, 0.36, 1] as const, // Buraya "as const" ekledik
+      ease: [0.22, 1, 0.36, 1] as const, 
       staggerChildren: 0.1, 
     },
   },
