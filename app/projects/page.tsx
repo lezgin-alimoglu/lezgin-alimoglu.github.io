@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { 
-  ArrowLeft, Terminal, Cpu, Github, Layers, 
+  ArrowLeft, Terminal, Cpu, Code, Layers, 
   BookOpen, Code2, Lightbulb, Settings2 
 } from "lucide-react";
 import Link from "next/link";
