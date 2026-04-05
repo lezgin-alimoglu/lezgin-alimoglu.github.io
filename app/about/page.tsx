@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion, Variants} from "framer-motion";
-import { FileDown, ArrowLeft, BrainCircuit, Bot, Target, Mail, Github, Linkedin } from "lucide-react";
+import { FileDown, ArrowLeft, BrainCircuit, Bot, Target, Mail, Code, Link as LinkIcon } from "lucide-react";
 
 
 
@@ -100,7 +100,7 @@ const AboutPage = () => {
               target="_blank" 
               className="group flex items-center gap-4 p-3 rounded-xl hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-all"
             >
-              <Github className="w-5 h-5 text-neutral-400 group-hover:text-black dark:group-hover:text-white transition-colors" />
+              <Code className="w-5 h-5 text-neutral-400 group-hover:text-black dark:group-hover:text-white transition-colors" />
               <span className="text-sm font-medium">GitHub</span>
               <span className="text-xs text-neutral-400 opacity-0 group-hover:opacity-100 transition-opacity">/lezgin-alimoglu</span>
             </a>
@@ -111,7 +111,7 @@ const AboutPage = () => {
               target="_blank" 
               className="group flex items-center gap-4 p-3 rounded-xl hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-all"
             >
-              <Linkedin className="w-5 h-5 text-neutral-400 group-hover:text-blue-600 transition-colors" />
+              <LinkIcon className="w-5 h-5 text-neutral-400 group-hover:text-blue-600 transition-colors" />
               <span className="text-sm font-medium">LinkedIn</span>
               <span className="text-xs text-neutral-400 opacity-0 group-hover:opacity-100 transition-opacity">/in/lezgin-alimoğlu</span>
             </a>
